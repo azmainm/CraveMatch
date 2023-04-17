@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CraveMatch/static/css/main.9ca0d4b3.css",
+    "main.js": "/CraveMatch/static/js/main.af8b17d9.js",
+    "index.html": "/CraveMatch/index.html",
+    "main.9ca0d4b3.css.map": "/CraveMatch/static/css/main.9ca0d4b3.css.map",
+    "main.af8b17d9.js.map": "/CraveMatch/static/js/main.af8b17d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca0d4b3.css",
+    "static/js/main.af8b17d9.js"
+  ]
+}
