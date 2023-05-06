@@ -4,10 +4,9 @@ import GameScreen from './components/GameScreen';
 import DetailsScreen from './components/DetailsScreen';
 import Landing from './components/Landing';
 
-
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/GameScreen" component={GameScreen} />

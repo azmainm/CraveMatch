@@ -29,7 +29,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://azmainm.github.io/CraveMatch/",
   "eslintConfig": {
     "extends": [
       "react-app",
