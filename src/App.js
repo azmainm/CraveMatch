@@ -6,14 +6,17 @@ import Landing from './components/Landing';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/GameScreen" component={GameScreen} />
         <Route path="/details" component={DetailsScreen} />
       </Switch>
-    </Router>
+    </Router >
   );
 }
 
 export default App;
+
+
+// basename={process.env.PUBLIC_URL}
