@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 
 function DetailsScreen({ location }) {
-    const { id, photoURL, name, restaurant, price } = location.state;
+    const { photoURL, name, restaurant, price } = location.state;
 
     return (
         <>

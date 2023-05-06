@@ -4,9 +4,9 @@ import { useHistory } from 'react-router-dom';
 const Hero = () => {
     const history = useHistory();
 
-    const navigateToGameScreen = () => {
-        history.push('/');
-    };
+    // const navigateToGameScreen = () => {
+    //     history.push('/');
+    // };
 
     const navigateToGame = () => {
         history.push('/GameScreen');

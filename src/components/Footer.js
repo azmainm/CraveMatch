@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaPhone, FaEnvelope, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaEnvelope, FaFacebook, FaInstagram } from "react-icons/fa";
 // import LogoBalt from '../images/logoBalt.png'
 import { useHistory } from 'react-router-dom';
 
